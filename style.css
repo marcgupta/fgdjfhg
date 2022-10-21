@@ -1,0 +1,117 @@
+.logo_img {
+
+width: 30%;
+
+}
+
+.start {
+
+width: 1200px;
+height: 900px;
+background-image: url(start.png);
+border-radius: 10px;
+margin-left: 70px;
+margin-top: 30px;
+box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+float: center;
+
+}
+
+body {
+
+    background-color: rgba(61, 52, 52, 0.445);
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #968c8ca4; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgba(99, 98, 98, 0.658); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.text {
+
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 50px;
+
+}
+
+.subtitle {
+
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 600;
+    margin-left: 100px;
+
+}
+
+.button {
+
+    border-radius: 50px;
+    background-color: darkgrey;
+    font-size: 15px;
+    padding: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    font-family: Nunito;
+    font-weight: bold;
+    margin-left: 100px;
+    color: black;
+    transition: background-color 2s ease-out 100ms;
+    transition: color 2s ease-out 100ms;
+    
+    }
+    
+    .button:hover {
+        color: black;
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px;
+        background-color: rgb(71, 71, 71);
+        border-color: rgba(255, 255, 255, 0);
+        font-family: Nunito;
+        font-weight: bold;
+        color: white;
+        
+        }
+
+        html {
+
+            scroll-behavior: smooth;
+
+        }
+
+        .logo_img {
+            border-radius: 0px;
+            margin-bottom: 35px;
+            margin-top: 10px;
+          }
+          .logo_img:hover {
+            border-radius: 8px;
+            margin-bottom: 35px;
+            margin-top: 10px;
+          }
+
+          .text-area {
+
+              border-radius: 10px;
+              background-color: #29164d59;
+              border-color: rgba(0, 255, 255, 0);
+              width: 300px;
+              height: 35px;
+              float: left;
+              margin-left: 30px;
+              margin-left: 100px;
+
+          }

@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Montserrat:wght@200&family=Nunito:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="start">
+        <br>
+    <h1 class="text">Collage Web App</h1>
+    <br>
+    <h4 class="subtitle">As soon as the popup appears, please click Allow. After you've spoken a command</h4>
+    <h3 class="subtitle">Say "Selfie" to take photo</h3>
+    <br>
+    <br>
+    <button onclick="start()" class="button">START</button>
+    <br>
+    <br>
+    <textarea readonly="true" id="textbox" class="text-area"></textarea>
+    <br>
+    <br>
+    <h4 class="subtitle">Press the START button</h4>
+    <label>Your WebCam: </label>
+    <br>
+    <div id="camera">
+    </div>
+</section>
+<br>
+<br>
+<center>
+<h4 class="text">FINAL RESULT</h4>
+<section id="final">
+    <div id="resultShow">
+<div id="s1" class="column">
+</div>
+
+<div id="s2" class="column">
+</div>
+
+<div id="s3" class="column">
+</div>
+</center>
+    </div>
+</section>
+<script src="main.js"></script>
+</body>
+
+</html>
